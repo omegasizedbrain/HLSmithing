@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "##G",
+        "##G",
+        "#GG"
+    ],
+    "key": {
+        "#": {
+            "item": "hlsmithing:copper_nugget"
+        },
+        "G": {
+            "item": "minecraft:gold_nugget"
+        }
+    },
+    "result": {
+        "item": "hlsmithing:rose_gold_ingot",
+        "count": 1
+    }
+}

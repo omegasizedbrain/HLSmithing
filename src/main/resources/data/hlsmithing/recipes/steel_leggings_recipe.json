@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:smithing",
+    "base": {
+        "item": "minecraft:iron_leggings"
+    },
+    "addition": {
+        "item": "hlsmithing:steel_plate"
+    },
+    "result": {
+        "item": "hlsmithing:steel_leggings"
+    }
+}

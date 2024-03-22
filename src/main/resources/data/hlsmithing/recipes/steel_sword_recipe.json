@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:smithing",
+    "base": {
+        "item": "minecraft:iron_sword"
+    },
+    "addition": {
+        "item": "hlsmithing:steel_plate"
+    },
+    "result": {
+        "item": "hlsmithing:steel_sword"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:smithing",
+    "base": {
+        "item": "minecraft:iron_pickaxe"
+    },
+    "addition": {
+        "item": "hlsmithing:steel_plate"
+    },
+    "result": {
+        "item": "hlsmithing:steel_pickaxe"
+    }
+}
