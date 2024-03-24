@@ -1,5 +1,6 @@
 package com.cultivator.hlsmithing;
 
+import com.cultivator.hlsmithing.block.ModBlocks;
 import com.cultivator.hlsmithing.item.ModItems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
@@ -40,6 +41,7 @@ public class HLSmithing
     public HLSmithing() {
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
         ModItems.register(eventBus);
+        ModBlocks.register(eventBus);
         eventBus.addListener(this::commonSetup);
 
         // Register the Deferred Register to the mod event bus so blocks get registered
